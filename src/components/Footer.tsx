@@ -3,16 +3,16 @@ export default function Footer() {
     <footer className="bg-gray-900 text-white py-16 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">准备好提升您的效率了吗？</h2>
+          <h2 className="text-3xl font-bold mb-4">Ready to Boost Your Productivity?</h2>
           <p className="text-gray-300 text-xl mb-8 max-w-2xl mx-auto">
-            加入数万用户的行列，体验最直观高效的任务管理工具。立即开始，完全免费。
+            Join thousands of users and experience the most intuitive and efficient task management tool. Start now, completely free.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors">
-              免费开始使用
+              Start Free
             </button>
             <button className="border-2 border-gray-400 text-gray-300 px-8 py-4 rounded-lg text-lg font-semibold hover:border-gray-300 hover:text-white transition-colors">
-              下载移动端 App
+              Download Mobile App
             </button>
           </div>
         </div>
@@ -21,7 +21,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">TodoApp</h3>
             <p className="text-gray-400 mb-4">
-              让任务管理变得简单高效，专注于真正重要的事情。
+              Make task management simple and efficient, focus on what really matters.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -43,44 +43,44 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-4">产品</h4>
+            <h4 className="text-lg font-semibold mb-4">Product</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">功能特色</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">定价方案</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">移动应用</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">集成工具</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Features</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Pricing</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Mobile App</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Integrations</a></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-4">支持</h4>
+            <h4 className="text-lg font-semibold mb-4">Support</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">帮助中心</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">使用教程</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">联系支持</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">状态页面</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Help Center</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Tutorials</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Contact Support</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Status Page</a></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-4">公司</h4>
+            <h4 className="text-lg font-semibold mb-4">Company</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">关于我们</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">博客</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">招聘信息</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">合作伙伴</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Blog</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Careers</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Partners</a></li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 mb-4 md:mb-0">
-            © 2024 TodoApp. 保留所有权利。
+            © 2025 Notiving. All rights reserved.
           </p>
           <div className="flex space-x-6">
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">隐私政策</a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">服务条款</a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">Cookie 政策</a>
+            <a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
+            <a href="#" className="text-gray-400 hover:text-white transition-colors">Terms of Service</a>
+            <a href="#" className="text-gray-400 hover:text-white transition-colors">Cookie Policy</a>
           </div>
         </div>
       </div>

@@ -1,55 +1,55 @@
 export default function Pricing() {
   const plans = [
     {
-      name: "免费版",
+      name: "Free",
       price: "¥0",
-      period: "永久免费",
-      description: "个人用户的完美选择",
+      period: "Forever free",
+      description: "Perfect for personal use",
       features: [
-        "最多 50 个任务",
-        "基础任务管理",
-        "手机端同步",
-        "7天数据保留",
-        "邮件支持"
+        "Up to 50 tasks",
+        "Basic task management",
+        "Mobile sync",
+        "7-day data retention",
+        "Email support"
       ],
-      buttonText: "免费开始",
+      buttonText: "Start Free",
       buttonStyle: "border-2 border-gray-300 text-gray-700 hover:border-gray-400",
       popular: false
     },
     {
-      name: "专业版",
+      name: "Pro",
       price: "¥29",
-      period: "/月",
-      description: "适合个人和小团队",
+      period: "/month",
+      description: "For individuals and small teams",
       features: [
-        "无限任务数量",
-        "高级任务管理",
-        "全平台同步",
-        "无限数据存储",
-        "团队协作（5人内）",
-        "优先邮件支持",
-        "数据导出功能"
+        "Unlimited tasks",
+        "Advanced task management",
+        "Cross-platform sync",
+        "Unlimited data storage",
+        "Team collaboration (up to 5 members)",
+        "Priority email support",
+        "Data export feature"
       ],
-      buttonText: "选择专业版",
+      buttonText: "Choose Pro",
       buttonStyle: "bg-blue-600 text-white hover:bg-blue-700",
       popular: true
     },
     {
-      name: "企业版",
+      name: "Enterprise",
       price: "¥99",
-      period: "/月",
-      description: "大型团队和企业",
+      period: "/month",
+      description: "For large teams and enterprises",
       features: [
-        "专业版所有功能",
-        "无限团队成员",
-        "高级分析报告",
-        "API 访问权限",
-        "自定义品牌",
-        "SSO 单点登录",
-        "专属客户经理",
-        "24/7 电话支持"
+        "All Pro features",
+        "Unlimited team members",
+        "Advanced analytics reports",
+        "API access",
+        "Custom branding",
+        "SSO single sign-on",
+        "Dedicated account manager",
+        "24/7 phone support"
       ],
-      buttonText: "联系销售",
+      buttonText: "Contact Sales",
       buttonStyle: "border-2 border-gray-300 text-gray-700 hover:border-gray-400",
       popular: false
     }
@@ -60,10 +60,10 @@ export default function Pricing() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            选择适合您的计划
+            Choose the Right Plan for You
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            从免费版开始，随着需求增长升级到专业版或企业版。所有计划都包含 30 天免费试用。
+            Start with our free plan and upgrade to Pro or Enterprise as your needs grow. All plans include a 30-day free trial.
           </p>
         </div>
 
@@ -73,7 +73,7 @@ export default function Pricing() {
               {plan.popular && (
                 <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                   <span className="bg-blue-500 text-white px-4 py-2 rounded-full text-sm font-semibold">
-                    最受欢迎
+                    Most Popular
                   </span>
                 </div>
               )}
@@ -107,13 +107,13 @@ export default function Pricing() {
 
         <div className="text-center mt-12 p-6 bg-gray-50 rounded-xl">
           <h3 className="text-xl font-semibold text-gray-900 mb-2">
-            需要定制化解决方案？
+            Need a Custom Solution?
           </h3>
           <p className="text-gray-600 mb-4">
-            我们为大型企业提供定制化的任务管理解决方案，包括私有部署和专业服务。
+            We provide customized task management solutions for large enterprises, including private deployment and professional services.
           </p>
           <button className="text-blue-600 font-semibold hover:text-blue-700 transition-colors">
-            联系我们了解更多 →
+            Contact us to learn more →
           </button>
         </div>
       </div>

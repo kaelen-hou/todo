@@ -3,25 +3,25 @@ export default function Hero() {
     <section className="bg-gradient-to-b from-blue-50 to-white py-20 px-4">
       <div className="max-w-6xl mx-auto text-center">
         <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-          让任务管理
-          <span className="text-blue-600 block">变得简单高效</span>
+          Make Task Management
+          <span className="text-blue-600 block">Simple & Efficient</span>
         </h1>
         <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-          TodoApp 是一款现代化的待办事项管理工具，帮助您轻松组织任务、设定优先级，让工作和生活更加井然有序。
+          TodoApp is a modern to-do management tool that helps you easily organize tasks, set priorities, and make your work and life more organized.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors">
-            免费开始使用
+            Start Free
           </button>
           <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg text-lg font-semibold hover:border-gray-400 transition-colors">
-            观看演示
+            Watch Demo
           </button>
         </div>
         <div className="mt-16">
           <div className="bg-white rounded-xl shadow-2xl p-8 max-w-4xl mx-auto">
             <div className="bg-gray-100 rounded-lg p-6">
               <div className="flex items-center justify-between mb-4">
-                <h3 className="text-lg font-semibold text-gray-800">今日任务</h3>
+                <h3 className="text-lg font-semibold text-gray-800">Today's Tasks</h3>
                 <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">3 / 8</span>
               </div>
               <div className="space-y-3">
@@ -31,16 +31,16 @@ export default function Hero() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-gray-600 line-through">完成项目提案</span>
+                  <span className="text-gray-600 line-through">Complete project proposal</span>
                 </div>
                 <div className="flex items-center gap-3 p-3 bg-white rounded-lg">
                   <div className="w-5 h-5 border-2 border-gray-300 rounded-full"></div>
-                  <span className="text-gray-800">准备会议资料</span>
-                  <span className="ml-auto text-orange-500 text-sm">高优先级</span>
+                  <span className="text-gray-800">Prepare meeting materials</span>
+                  <span className="ml-auto text-orange-500 text-sm">High Priority</span>
                 </div>
                 <div className="flex items-center gap-3 p-3 bg-white rounded-lg">
                   <div className="w-5 h-5 border-2 border-gray-300 rounded-full"></div>
-                  <span className="text-gray-800">回复客户邮件</span>
+                  <span className="text-gray-800">Reply to client email</span>
                 </div>
               </div>
             </div>

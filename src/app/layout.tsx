@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'TodoApp - 简单高效的任务管理工具',
-  description: '一款现代化的待办事项应用，帮助您高效管理任务，提升工作效率',
+  title: 'TodoApp - Simple and Efficient Task Management Tool',
+  description: 'A modern to-do application that helps you efficiently manage tasks and boost productivity',
 }
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="zh-CN">
+    <html lang="en">
       <body className={inter.className}>{children}</body>
     </html>
   )

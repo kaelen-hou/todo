@@ -19,7 +19,7 @@ export default function Footer() {
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div>
-            <h3 className="text-xl font-bold mb-4">TodoApp</h3>
+            <h3 className="text-xl font-bold mb-4">Notiving</h3>
             <p className="text-gray-400 mb-4">
               Make task management simple and efficient, focus on what really matters.
             </p>
@@ -78,9 +78,7 @@ export default function Footer() {
             © 2025 Notiving. All rights reserved.
           </p>
           <div className="flex space-x-6">
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">Terms of Service</a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">Cookie Policy</a>
+            <a href="/privacy" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
           </div>
         </div>
       </div>
